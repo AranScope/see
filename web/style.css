@@ -1,0 +1,22 @@
+body{
+	width: 100vw
+	height: 100vh;
+	overflow-x: hidden;
+	background-image: url('photography.png');
+}
+
+#button {
+	width: 20vw;
+	height: 10vh;
+	font-size: 5vh;
+	color: white;
+	background-color: #2ecc71;
+	border: none;
+	margin: 5vh;
+}
+
+#text {
+	font-size: 5vh;
+	color: #34495e;
+	font-family: Arial;
+}

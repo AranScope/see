@@ -1,0 +1,142 @@
+ * Running on http://0.0.0.0:3005/ (Press CTRL+C to quit)
+127.0.0.1 - - [30/Oct/2016 10:40:05] "GET /nlp?text=is%20there%20a%20man%20in%20this%20photo HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    @crossdomain(origin='*')
+NameError: name 'crossdomain' is not defined
+Traceback (most recent call last):
+  File "main.py", line 92, in <module>
+    @crossdomain(origin='*')
+  File "main.py", line 13, in crossdomain
+    if not isinstance(origin, basestring):
+NameError: name 'basestring' is not defined
+ * Running on http://0.0.0.0:3005/ (Press CTRL+C to quit)
+ * Running on http://0.0.0.0:3005/ (Press CTRL+C to quit)
+127.0.0.1 - - [30/Oct/2016 10:43:07] "GET /nlp?text=is%20there%20a%20man%20in%20this%20picture HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:3005/ (Press CTRL+C to quit)
+127.0.0.1 - - [30/Oct/2016 10:50:04] "GET /nlp?text=is%20there%20a%20man%20in%20this%20picture HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 10:57:48] "GET /nlp?text=please%20describe%20the%20picture HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:00:18] "GET /nlp?text=is%20there%20a%20man%20in%20this%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:00:25] "GET /nlp?text=describe%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:00:35] "GET /nlp?text=is%20the%20portrait%20in%20this%20room HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:3005/ (Press CTRL+C to quit)
+127.0.0.1 - - [30/Oct/2016 11:20:01] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:20:19] "GET /nlp?text=describe%20the%20image HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:23:33] "GET /nlp?text=there%27s%20a%20man%20in%20misery HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:23:41] "GET /nlp?text=describe%20the%20ring%20thing HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:23:59] "GET /nlp?text=is%20there%20a%20man%20in%20this%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:25:09] "GET /nlp?text=is%20there%20a%20tree%20in%20Israel HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:26:25] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:26:35] "GET /nlp?text=is%20George%20carburettor%20in%20the%20breast HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:27:31] "GET /nlp?text=is%20George%20sava%20Anna%20Maria HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:27:58] "GET /nlp?text=travelling%20in%20a%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:28:24] "GET /nlp?text=is%20there%20a%20tree HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:29:14] "GET /nlp?text=is%20there%20a%20tree HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:30:17] "GET /nlp?text=is%20there%20a%20tree%20in%20here HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:30:26] "GET /nlp?text=Linda%20manager HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:30:37] "GET /nlp?text=news%20report%20trailer HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:31:07] "GET /nlp?text=what%20is%20a%20man%20in%20the%20ring HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:3005/ (Press CTRL+C to quit)
+127.0.0.1 - - [30/Oct/2016 11:32:06] "GET /nlp?text=is%20there%20a%20man%20in%20the%20moon HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:32:16] "GET /nlp?text=is%20there%20a%20tree HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:32:48] "GET /nlp?text=Little%20Women HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:32:58] "GET /nlp?text=why%20is%20there%20politics HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:33:14] "GET /nlp?text=is%20there%20a%20dictionary HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:33:22] "GET /nlp?text=room%20room%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:34:30] "GET /nlp?text=is%20there%20a%20man%20in%20here HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:34:42] "GET /nlp?text=is%20Google%20in%20here HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:35:06] "GET /nlp?text=the%20terminator HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:39:19] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:40:15] "GET /nlp?text=is%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:44:21] "GET /nlp?text=is%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:45:00] "GET /nlp?text=is%20restart%20in%20here HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:45:15] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:45:38] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:45:46] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:46:06] "GET /nlp?text=describe%20the%20ring%20Tony HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:47:59] "GET /nlp?text=is%20there%20a%20man%20in%20the%20world HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:49:31] "GET /nlp?text=is%20a%20man%20who%20can%27t%20be%20moved HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:50:05] "GET /nlp?text=is%20there%20a%20man%20in%20the%20ring HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:50:17] "GET /nlp?text=where%20is%20George%20Sovereign%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:50:41] "GET /nlp?text=how%20is%20it%20today HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:51:04] "GET /nlp?text=Chinese%20army%20in%20the%20rain%20all%20the%20time%20solo HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:51:57] "GET /nlp?text=how%20good%20is%20this%20voice%20recognition HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:52:37] "GET /nlp?text=isis%20thereis%20thereis%20thereis%20thereis%20there%20a%20manis%20there%20a%20man%20inis%20there%20a%20man%20in%20theis%20there%20a%20man%20in%20the%20roomis%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 11:53:43] "GET /nlp?text=who%20is%20the%20man%20in%20The%20Ring HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:16:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:16:43] "GET /nlp?text=The%20large%20brown%20fox HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:16:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Oct/2016 12:16:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:00] "GET /nlp?text%22horny%20women%22 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:06] "GET /nlp?text%22horny%20women%22 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:17] "GET /nlp?text%22horny%20women%22 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:27] "GET /nlp?text=hello%20world HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:33] "GET /nlp?text=hello%20world HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:36] "GET /nlp?text=hello%20walking HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:45] "GET /similar?w1=monitor&w2=computer HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:51] "GET /nlp?text=hello%20walking HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:17:57] "GET /nlp?text=hello%20walking HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:18:02] "GET /similar?w1=door&w2=doorway HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:18:11] "GET /similar?w1=phone&w2=laptop HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:32:02] "GET /nlp?text=hello HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:32:44] "GET /nlp?text=hello HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:35:09] "GET /nlp?text=describe%20the%20range HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 12:38:58] "GET /nlp?text=how%20many%20people%20in%20the%20world HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 14:21:22] "GET /nlp?text=hello HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 14:37:47] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 15:01:33] "GET /nlp?text=describe%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 15:01:44] "GET /nlp?text=is%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 15:01:54] "GET /nlp?text=is%20there%20a%20mountain%20here HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 15:31:45] "GET /nlp?text=is%20there%20a%20man%20in%20his%20picture%20no HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 15:41:20] "GET /similar?w1=phone&w2=laptop HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 15:41:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Oct/2016 15:41:27] "GET /nlp?text=The%20large%20brown%20fox HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 16:01:08] "GET /nlp?text=is%20there%20a%20room%20in%20the%20roof HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 16:01:38] "GET /nlp?text=salty%20balls HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 16:01:41] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 16:01:52] "GET /nlp?text=recycling%20Brighton HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 21:24:25] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 21:24:41] "GET /nlp?text=Venezia%20Nguyen HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 21:24:53] "GET /nlp?text=can%20you%20see%20a%20human%20human HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 21:25:02] "GET /nlp?text=can%20you%20see%20a%20human HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2016 21:25:30] "GET /nlp?text=well HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 02:34:31] "GET /nlp?text=Manhattan HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 02:34:43] "GET /nlp?text=Pizza%20Hut HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 02:34:46] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 14:52:42] "GET /nlp?text=is%20there%20a%20man%20in%20the%20rain HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 14:52:54] "GET /nlp?text=describe%20the%20rain%20today HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 14:53:06] "GET /nlp?text=is%20there%20a%20mansion%20in%20here HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 14:53:15] "GET /nlp?text=is%20there%20a%20tree HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:40:34] "GET /nlp?text=is%20there%20a%20woman%20in%20this%20room HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:40:44] "GET /nlp?text=is%20there%20a%20mountain%20in%20here HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:40:52] "GET /nlp?text=describe%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:41:17] "GET /nlp?text=is%20this%20a%20woman HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:41:38] "GET /nlp?text=is%20this%20a%20woman HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:41:44] "GET /nlp?text=so%20is%20this%20a%20man HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:41:57] "GET /nlp?text=is%20this%20a%20woman HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:42:06] "GET /nlp?text=is%20this%20a%20man HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:42:19] "GET /nlp?text=is%20there%20a%20television%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:42:27] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:42:31] "GET /nlp?text=is%20there%20a%20prick%20in%20the%20Wi-Fi HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:42:38] "GET /nlp?text=is%20there%20a%20prick%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [31/Oct/2016 17:42:50] "GET /nlp?text=is%20there%20a%20tick%20in%20this%20picture HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2016 15:07:17] "GET /nlp?text=is%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2016 15:07:32] "GET /nlp?text=is%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2016 15:08:17] "GET /nlp?text=is%20there%20a%20man%20in%20the%20room HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2016 15:11:50] "GET /nlp?text=is%20there%20a%20man%20in%20the%20moon HTTP/1.1" 200 -
+127.0.0.1 - - [01/Nov/2016 15:13:05] "GET /nlp?text=is%20there%20a%20man%20in%20the%20world HTTP/1.1" 200 -
+127.0.0.1 - - [03/Nov/2016 13:05:09] "GET /nlp?text=The%20large%20brown%20fox HTTP/1.1" 200 -
+127.0.0.1 - - [03/Nov/2016 13:05:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [03/Nov/2016 13:09:36] "GET /synonyms?w=hello HTTP/1.1" 200 -
+127.0.0.1 - - [03/Nov/2016 13:09:41] "GET /synonyms?w=computer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Nov/2016 16:39:34] "GET /nlp?text=hello%20hello HTTP/1.1" 200 -
+127.0.0.1 - - [04/Nov/2016 16:40:25] "GET /synonyms?w=computer HTTP/1.1" 200 -
+127.0.0.1 - - [04/Nov/2016 16:40:26] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [04/Nov/2016 16:40:32] "GET /synonyms?w=hello HTTP/1.1" 200 -
+127.0.0.1 - - [04/Nov/2016 16:40:38] "GET /similar?w1=phone&w2=laptop HTTP/1.1" 200 -
+127.0.0.1 - - [04/Nov/2016 16:40:45] "GET /nlp?text=The%20large%20brown%20fox HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2016 13:17:27] "GET /nlp?text= HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2016 13:17:31] "GET /nlp?text=hello HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2016 13:18:52] "GET /nlp?text=The%20quick%20brown%20fox HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2016 13:18:52] "GET /favicon.ico HTTP/1.1" 404 -
